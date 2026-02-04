@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+  
+}
+.para{
+    color: white;
+}
+/* #main{
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    padding: 20px;
+    border: 10px solid green;
+} */
+/* % 
+Assume ==>
+full desktop width = 100% 
+half desktop width = 50%
+
+==> use when we know that whatever width is we are going to take half etc. 
+
+and px
+
+==> when we have to take pixels values (small distances)
+
+*/
+
+/* 
+
+margin ==> element ke bahar ki space
+padding ==> elements ke andar space
+
+
+*/
+
+#image{
+    background-image: url(images.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+
+
+
+}
+
+
+/* position absolute  ==> 
+
+jo bhi element position absolute hoaga vo upar uth jayaga or hum upar se dekh rhe hai
+isliye uske niche ke element hide ho jayagea
+
+==> can move this element any where top, bottom, left, right
+
+position relative ==>kisi box ko ek box ke andar rakhna ho to us box ko relative bana do 
+--> iske bad andar vala box sirf parent box ki andar ghumega 
+
+
+*/
+
+
+
+#car1{
+    width: 100px;
+    height: 120px;
+    background-color: red;
+    /* position: absolute; */
+}
+
+
+#car2{
+    width: 120px;
+    height: 120px;
+    background-color: pink;
+    /* position: absolute; */
+    
+}
+
+
+#car3{
+    width: 130px;
+    height: 120px;
+    background-color: blue;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    /* position: relative; */
+}
+/* 
+#carA{
+    width: 50px;
+    height: 70px;
+    background-color: gray;
+
+    } */
+
+
+#box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(243, 56, 56);
+    position:relative;
+
+}
+#chotabox{
+    position: absolute;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+
+/* agar koe element absolute hai to usko relative bnane ki jarurat 
+nhi hai vo relative ka kam bhi kr rha hai 
+
+
+*/
+
+
+/* flexbox==>to rearrange the elements 
+parent element ==> display flex
+
+top - bottom (height) ==> align item
+left - right (width) ==> justify content
+
+
+
+*/
+
+
+
+
+
+
