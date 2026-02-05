@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(48, 47, 47);
+}
+
+h1{
+    font-size: 50px;
+}
+/* #box{
+    height: 200px;
+    width: 200px;
+    background-color: crimson;
+}
+#innerbox{
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+} */
+
+#parent{
+    background-color: rgb(160, 76, 238);
+    height: 70%;
+    width: 50%;
+}
+#parentbox{
+    background-color: rgb(19, 197, 161);
+    height: 50%;
+    width: 50%;
+}
+
